@@ -1,0 +1,127 @@
+html {
+    font-family: "Cascadia Mono";
+    font-smooth: never;
+    -webkit-font-smoothing : none;
+    color: white;
+    background-color: black;
+    padding-top: 30px;
+}
+
+.main {
+    margin: auto;
+    width: fit-content;
+    border:5px solid #e2d69a;
+}
+
+.banner {
+    border-bottom:5px solid #e2d69a;
+}
+
+#bannerimg {
+    text-align: center;
+    width: 800px;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.content {
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+.leftsubheader {
+    text-align: center;
+    color: black;
+    background-color: #e2d69a;
+    border-bottom:5px solid #e2d69a;
+    border-top: solid#e2d69a;
+}
+
+.left {
+    margin-right: auto;
+    text-align: left;
+    width: 48.5%;
+    border:5px solid #e2d69a;;
+    color: #e2d69a;
+}
+
+.leftcontent {
+    padding-left: 10%;
+}
+
+:link {
+    color: #e2d69a;
+}
+
+#twitchlink {
+    display: inline;
+    white-space: nowrap;
+}
+
+.rightsubheader {
+    text-align: center;
+    color: black;
+    background-color: #e2d69a;
+    border-bottom:5px solid #e2d69a;
+    border-top: solid#e2d69a;
+}
+
+.right {
+    margin-left: auto;
+    text-align: left;
+    width: 48.5%;
+    border:5px solid #e2d69a;
+    color: #e2d69a;
+}
+
+.rightcontent {
+    font-size: 12px;
+    width: 365px;
+    padding-left: 5%;
+    word-wrap: break-word;
+}
+
+.contactborder {
+    padding: 5px;
+}
+
+.contactcontainer {
+    border:5px solid #e2d69a;
+}
+
+.contactheader {
+    text-align: center;
+    background-color: #e2d69a;
+    border-top: 1px solid #e2d69a;
+    color: black;
+    border-bottom: 1px solid #e2d69a;
+}
+
+#mdni {
+    border: 0px;
+    padding: 0px;
+    margin-top: -20px;
+    position: relative;
+}
+
+.contactcontentcontainer {
+    color: #e2d69a;
+}
+
+.contactcontent {
+    padding-left: 10%;
+    text-align: left;
+}
+
+.newsborder {
+    border-top: 1px solid #e2d69a;
+    background-color: #e2d69a;
+    border-bottom: 1px solid #e2d69a;
+}
+
+.newscontent {
+    color: black;
+    text-align: center;
+}
