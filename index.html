@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="mainpagestyle.css">
         <link rel="icon" href="/assets/colonthree.png">
+        <!--idk how to make a website lolllll-->
     </head>
     <body>
         <div class="main">
@@ -16,18 +17,19 @@
                     </div>
                     <div class="leftcontent">
                         <a href="https://steamcommunity.com/id/hehecolonthree/"><h1>>>steam<img src="assets/steamicon.png" style="height: 30px; position: absolute; padding-top: 5px; padding-left: 5px;"></h1></a>
-                        <a href="https://www.twitch.tv/hehecolonthree"><h1 id="twitchlink">>>twitch</h1><img src="assets/twitchicon.png" style="height: 30px; position: absolute; padding-top: 5px; padding-left: 5px;"></a>
+                        <a href="https://www.twitch.tv/hehecolonthree"><h1 id="twitchlink">>>twitch<img src="assets/twitchicon.png" style="height: 30px; position: absolute; padding-top: 5px; padding-left: 5px;"></h1></a>
                         <a href="https://www.youtube.com/@FBCbdo"><h1>>>youtube<img src="assets/youtubeicon.png" style="height: 25px; position: absolute; padding-top: 8px; padding-left: 5px;"></h1></a>
+                        <a href="https://venmo.com/code?user_id=4232707013870794254&created=1776124323"><h1>>>venmo<img style="height: 30px ; position: absolute; padding-top: 5px; padding-left: 5px;" src="assets/venmoicon.png"></h1></a>
                     </div>
                 </div>
                 <div class="right">
                     <div class="rightsubheader">
-                        <h1>stuff</h1>
+                        <h1>info</h1>
                     </div>
                     <div class="rightcontent">
-                        <h1>you're probably here from twitter, 
-                            these are my other links and contact information.
-                             feel free to contact me, please only email me for a legitimate reason.</h1>
+                        <h1> these are my <em>only</em> social media links and contact information,
+                             feel free to contact me. however, please reserve emailing me for legitimate reasons, otherwise
+                            i wont reply.</h1>
                     </div>
                 </div>
             </div>
@@ -39,15 +41,30 @@
                     </div>
                     <div class="contactcontentcontainer">
                     <div class="contactcontent">
-                       <h1>email: fbc@hehecolonthree.com</h1>
-                       <h1>discord: fbc_</h1>
+                       <h1>email: <span id="emailspan">fbc@hehecolonthree.com</span> <img id="emailcopybutton" src="assets/copybuttonyellow.png" style="height: 25px;"></h1>
+                       <h1>discord: <span id="discordspan">fbc_</span> <img id="discordcopybutton" src="assets/copybuttonyellow.png" style="height: 25px;"></h1>
+                        <script>
+                            const emailspan = document.getElementById("emailspan").textContent;
+                            const emailcopybutton = document.getElementById("emailcopybutton");
+
+                            emailcopybutton.addEventListener('click', () => {
+                                navigator.clipboard.writeText(emailspan);
+                            });
+
+                            const discordspan = document.getElementById("discordspan").textContent;
+                            const discordcopybutton = document.getElementById("discordcopybutton");
+
+                            discordcopybutton.addEventListener('click', () => {
+                                navigator.clipboard.writeText(discordspan);
+                            });
+                        </script>
                     </div>
                     </div>
                 </div>
             </div>
             <div class="newsborder">
                 <div class="newscontent">
-                    <h1>checkout <a href="https://www.youtube.com/watch?v=si_6uuQF8ZI" id="checkoutlink" style="color: black;">>>Status - Machine Girl</a></h1>
+                    <h1>checkout <a href="https://www.youtube.com/watch?v=si_6uuQF8ZI" id="checkoutlink">>>Status - Machine Girl</a></h1>
                 </div>
             </div>
         </div>
