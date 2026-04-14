@@ -3,17 +3,36 @@ html {
     font-smooth: never;
     -webkit-font-smoothing : none;
     color: white;
-    background-color: black;
-    padding-top: 30px;
+    background-image: url("assets/wavesmonocolorREDcrop.gif");
+    cursor: url("assets/cursorsmall.png") 0 0, auto;
+    /*background-color: #17171a;*/
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    padding-top: 1vh;
+}
+
+a:hover {
+    cursor: url("assets/handcursor.png") 13 4, pointer;
+}
+#emailcopybutton:hover {
+    cursor: url("assets/handcursor.png") 13 4, pointer;
+}
+#discordcopybutton:hover {
+    cursor: url("assets/handcursor.png") 13 4, pointer;
 }
 
 .main {
+    /*background-image: url("assets/wavesmonocolorcrop.gif");
+    background-size: 100vw 100vh;*/
+    background-color: #17171a;
     margin: auto;
     width: fit-content;
     border:5px solid #e2d69a;
+    /*box-shadow: -5px -5px 5px #17171a;*/
 }
 
 .banner {
+    background-color: #17171a;
     border-bottom:5px solid #e2d69a;
 }
 
@@ -33,13 +52,14 @@ html {
 
 .leftsubheader {
     text-align: center;
-    color: black;
+    color: #17171a;
     background-color: #e2d69a;
     border-bottom:5px solid #e2d69a;
     border-top: solid#e2d69a;
 }
 
 .left {
+    background-color: #17171a;
     margin-right: auto;
     text-align: left;
     width: 48.5%;
@@ -62,13 +82,14 @@ html {
 
 .rightsubheader {
     text-align: center;
-    color: black;
+    color: #17171a;
     background-color: #e2d69a;
     border-bottom:5px solid #e2d69a;
     border-top: solid#e2d69a;
 }
 
 .right {
+    background-color: #17171a;
     margin-left: auto;
     text-align: left;
     width: 48.5%;
@@ -88,6 +109,7 @@ html {
 }
 
 .contactcontainer {
+    background-color: #17171a;
     border:5px solid #e2d69a;
 }
 
@@ -95,7 +117,7 @@ html {
     text-align: center;
     background-color: #e2d69a;
     border-top: 1px solid #e2d69a;
-    color: black;
+    color: #17171a;
     border-bottom: 1px solid #e2d69a;
 }
 
@@ -116,12 +138,19 @@ html {
 }
 
 .newsborder {
-    border-top: 1px solid #e2d69a;
-    background-color: #e2d69a;
+    border-top: 5px solid #e2d69a;
+    background-color: #17171a;
+    background-image: url("assets/wavesmonocolorcrop.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
     border-bottom: 1px solid #e2d69a;
 }
 
 .newscontent {
-    color: black;
+    color: #17171a;
     text-align: center;
+}
+
+#checkoutlink {
+    color: #17171a;
 }
